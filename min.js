@@ -1,7 +1,9 @@
 'use strict';
 
 function minFinder(numbers){
+
   const len = numbers.length;
+  if (len === 0) return null;
 
   let solution = numbers[0];
   let x = 1; 
